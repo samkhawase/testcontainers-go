@@ -11,7 +11,7 @@ import (
 
 	"github.com/docker/docker/client"
 
-	"github.com/testcontainers/testcontainers-go/internal/config"
+	"github.com/samkhawase/testcontainers-go/internal/config"
 )
 
 type dockerHostContext string

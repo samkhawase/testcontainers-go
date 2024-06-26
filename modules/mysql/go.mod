@@ -1,10 +1,10 @@
-module github.com/testcontainers/testcontainers-go/modules/mysql
+module github.com/samkhawase/testcontainers-go/modules/mysql
 
 go 1.21
 
 require (
 	github.com/go-sql-driver/mysql v1.7.1
-	github.com/testcontainers/testcontainers-go v0.31.0
+	github.com/samkhawase/testcontainers-go v0.31.0
 
 )
 
@@ -59,4 +59,4 @@ require (
 	google.golang.org/protobuf v1.33.0 // indirect
 )
 
-replace github.com/testcontainers/testcontainers-go => ../..
+replace github.com/samkhawase/testcontainers-go => ../..

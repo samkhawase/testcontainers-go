@@ -7,8 +7,8 @@ import (
 	"log"
 	"path/filepath"
 
-	"github.com/testcontainers/testcontainers-go"
-	"github.com/testcontainers/testcontainers-go/modules/dolt"
+	"github.com/samkhawase/testcontainers-go"
+	"github.com/samkhawase/testcontainers-go/modules/dolt"
 )
 
 func ExampleRunContainer() {

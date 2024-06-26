@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/testcontainers/testcontainers-go"
-	"github.com/testcontainers/testcontainers-go/modules/surrealdb"
+	"github.com/samkhawase/testcontainers-go"
+	"github.com/samkhawase/testcontainers-go/modules/surrealdb"
 )
 
 func ExampleRunContainer() {

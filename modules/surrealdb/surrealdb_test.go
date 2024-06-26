@@ -6,7 +6,7 @@ import (
 
 	"github.com/surrealdb/surrealdb.go"
 
-	"github.com/testcontainers/testcontainers-go"
+	"github.com/samkhawase/testcontainers-go"
 )
 
 func TestSurrealDBSelect(t *testing.T) {

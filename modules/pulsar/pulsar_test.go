@@ -16,9 +16,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/testcontainers/testcontainers-go"
-	testcontainerspulsar "github.com/testcontainers/testcontainers-go/modules/pulsar"
-	tcnetwork "github.com/testcontainers/testcontainers-go/network"
+	"github.com/samkhawase/testcontainers-go"
+	testcontainerspulsar "github.com/samkhawase/testcontainers-go/modules/pulsar"
+	tcnetwork "github.com/samkhawase/testcontainers-go/network"
 )
 
 func TestPulsar(t *testing.T) {

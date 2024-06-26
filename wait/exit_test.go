@@ -9,7 +9,7 @@ import (
 	"github.com/docker/docker/api/types"
 	"github.com/docker/go-connections/nat"
 
-	tcexec "github.com/testcontainers/testcontainers-go/exec"
+	tcexec "github.com/samkhawase/testcontainers-go/exec"
 )
 
 type exitStrategyTarget struct {

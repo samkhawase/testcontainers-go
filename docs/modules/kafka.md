@@ -1,6 +1,6 @@
 # Kafka (KRaft)
 
-Since testcontainers-go <a href="https://github.com/testcontainers/testcontainers-go/releases/tag/v0.24.0"><span class="tc-version">:material-tag: v0.24.0</span></a>
+Since testcontainers-go <a href="https://github.com/samkhawase/testcontainers-go/releases/tag/v0.24.0"><span class="tc-version">:material-tag: v0.24.0</span></a>
 
 ## Introduction
 
@@ -11,7 +11,7 @@ The Testcontainers module for KRaft: [Apache Kafka Without ZooKeeper](https://de
 Please run the following command to add the Kafka module to your Go dependencies:
 
 ```
-go get github.com/testcontainers/testcontainers-go/modules/kafka
+go get github.com/samkhawase/testcontainers-go/modules/kafka
 ```
 
 ## Usage example

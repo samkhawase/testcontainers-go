@@ -21,7 +21,7 @@ readonly MKDOCS_FILE="${ROOT_DIR}/mkdocs.yml"
 readonly SONARCLOUD_FILE="${ROOT_DIR}/sonar-project.properties"
 readonly VERSION_FILE="${ROOT_DIR}/internal/version.go"
 
-readonly REPOSITORY="github.com/testcontainers/testcontainers-go"
+readonly REPOSITORY="github.com/samkhawase/testcontainers-go"
 readonly DIRECTORIES=(examples modules)
 
 function main() {
@@ -70,7 +70,7 @@ function main() {
   gitPushTags
 
   # Trigger the Go proxy to fetch the core module
-  curlGolangProxy "${REPOSITORY}" "${vVersion}" # e.g. github.com/testcontainers/testcontainers-go/@v/v0.0.1.info
+  curlGolangProxy "${REPOSITORY}" "${vVersion}" # e.g. github.com/samkhawase/testcontainers-go/@v/v0.0.1.info
 
   # Trigger the Go proxy to fetch the modules
   for directory in "${DIRECTORIES[@]}"
@@ -80,7 +80,7 @@ function main() {
     ls -d */ | grep -v "_template" | while read -r module; do
       module="${module%?}" # remove trailing slash
       module_path="${REPOSITORY}/${directory}/${module}"
-      curlGolangProxy "${module_path}" "${vVersion}" # e.g. github.com/testcontainers/testcontainers-go/modules/mongodb/@v/v0.0.1.info
+      curlGolangProxy "${module_path}" "${vVersion}" # e.g. github.com/samkhawase/testcontainers-go/modules/mongodb/@v/v0.0.1.info
     done
   done
 }
@@ -97,8 +97,8 @@ function curlGolangProxy() {
   fi
 
   # e.g.:
-  #   github.com/testcontainers/testcontainers-go/v0.0.1.info
-  #   github.com/testcontainers/testcontainers-go/modules/mongodb/v0.0.1.info
+  #   github.com/samkhawase/testcontainers-go/v0.0.1.info
+  #   github.com/samkhawase/testcontainers-go/modules/mongodb/v0.0.1.info
   curl "https://proxy.golang.org/${module_path}/@v/${module_version}.info"
 }
 

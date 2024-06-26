@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/testcontainers/testcontainers-go/internal/core"
+	"github.com/samkhawase/testcontainers-go/internal/core"
 )
 
 func TestProviderTypeGetProviderAutodetect(t *testing.T) {

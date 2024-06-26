@@ -3,7 +3,7 @@ package cmd
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/testcontainers/testcontainers-go/modulegen/cmd/modules"
+	"github.com/samkhawase/testcontainers-go/modulegen/cmd/modules"
 )
 
 var NewRootCmd = &cobra.Command{

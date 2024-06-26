@@ -9,8 +9,8 @@ import (
 	"github.com/docker/go-connections/nat"
 	"golang.org/x/mod/semver"
 
-	"github.com/testcontainers/testcontainers-go"
-	"github.com/testcontainers/testcontainers-go/wait"
+	"github.com/samkhawase/testcontainers-go"
+	"github.com/samkhawase/testcontainers-go/wait"
 )
 
 const publicPort = nat.Port("9093/tcp")

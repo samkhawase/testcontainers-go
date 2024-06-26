@@ -11,8 +11,8 @@ import (
 	"github.com/weaviate/weaviate-go-client/v4/weaviate"
 	"github.com/weaviate/weaviate-go-client/v4/weaviate/grpc"
 
-	"github.com/testcontainers/testcontainers-go"
-	tcweaviate "github.com/testcontainers/testcontainers-go/modules/weaviate"
+	"github.com/samkhawase/testcontainers-go"
+	tcweaviate "github.com/samkhawase/testcontainers-go/modules/weaviate"
 )
 
 func ExampleRunContainer() {

@@ -1,4 +1,4 @@
-module github.com/testcontainers/testcontainers-go/examples/toxiproxy
+module github.com/samkhawase/testcontainers-go/examples/toxiproxy
 
 go 1.21
 
@@ -6,7 +6,7 @@ require (
 	github.com/Shopify/toxiproxy/v2 v2.8.0
 	github.com/go-redis/redis/v8 v8.11.5
 	github.com/google/uuid v1.6.0
-	github.com/testcontainers/testcontainers-go v0.31.0
+	github.com/samkhawase/testcontainers-go v0.31.0
 )
 
 require (
@@ -61,4 +61,4 @@ require (
 	google.golang.org/protobuf v1.33.0 // indirect
 )
 
-replace github.com/testcontainers/testcontainers-go => ../..
+replace github.com/samkhawase/testcontainers-go => ../..

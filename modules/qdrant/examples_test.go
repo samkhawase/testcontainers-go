@@ -10,8 +10,8 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"github.com/testcontainers/testcontainers-go"
-	"github.com/testcontainers/testcontainers-go/modules/qdrant"
+	"github.com/samkhawase/testcontainers-go"
+	"github.com/samkhawase/testcontainers-go/modules/qdrant"
 )
 
 func ExampleRunContainer() {

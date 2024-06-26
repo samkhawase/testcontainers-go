@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/testcontainers/testcontainers-go/modulegen/cmd"
+	"github.com/samkhawase/testcontainers-go/modulegen/cmd"
 )
 
 func main() {

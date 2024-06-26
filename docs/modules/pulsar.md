@@ -1,6 +1,6 @@
 # Apache Pulsar
 
-Since testcontainers-go <a href="https://github.com/testcontainers/testcontainers-go/releases/tag/v0.19.0"><span class="tc-version">:material-tag: v0.19.0</span></a>
+Since testcontainers-go <a href="https://github.com/samkhawase/testcontainers-go/releases/tag/v0.19.0"><span class="tc-version">:material-tag: v0.19.0</span></a>
 
 ## Introduction
 
@@ -15,7 +15,7 @@ It's based on the official Apache Pulsar docker image, so it is recommended to r
 Please run the following command to add the Apache Pulsar module to your Go dependencies:
 
 ```
-go get github.com/testcontainers/testcontainers-go/modules/pulsar
+go get github.com/samkhawase/testcontainers-go/modules/pulsar
 ```
 
 ## Usage example

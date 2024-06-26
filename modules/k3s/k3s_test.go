@@ -12,9 +12,9 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/tools/clientcmd"
 
-	"github.com/testcontainers/testcontainers-go"
-	"github.com/testcontainers/testcontainers-go/modules/k3s"
-	"github.com/testcontainers/testcontainers-go/wait"
+	"github.com/samkhawase/testcontainers-go"
+	"github.com/samkhawase/testcontainers-go/modules/k3s"
+	"github.com/samkhawase/testcontainers-go/wait"
 )
 
 func Test_LoadImages(t *testing.T) {

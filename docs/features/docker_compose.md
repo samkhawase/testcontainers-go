@@ -13,7 +13,7 @@ dependent upon.
 	The minimal version of Go required to use this module is **1.21**.
 
 ```
-go get github.com/testcontainers/testcontainers-go/modules/compose
+go get github.com/samkhawase/testcontainers-go/modules/compose
 ```
 
 Because `compose` v2 is implemented in Go it's possible for _Testcontainers for Go_ to
@@ -33,7 +33,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	tc "github.com/testcontainers/testcontainers-go/modules/compose"
+	tc "github.com/samkhawase/testcontainers-go/modules/compose"
 )
 
 func TestSomething(t *testing.T) {
@@ -84,7 +84,7 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/docker/compose/v2/pkg/api"
-	tc "github.com/testcontainers/testcontainers-go/modules/compose"
+	tc "github.com/samkhawase/testcontainers-go/modules/compose"
 )
 
 func TestSomethingElse(t *testing.T) {
@@ -132,8 +132,8 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/require"
-	tc "github.com/testcontainers/testcontainers-go/modules/compose"
-	"github.com/testcontainers/testcontainers-go/wait"
+	tc "github.com/samkhawase/testcontainers-go/modules/compose"
+	"github.com/samkhawase/testcontainers-go/wait"
 )
 
 func TestSomethingWithWaiting(t *testing.T) {
@@ -168,7 +168,7 @@ The `ComposeStack` supports this as well in two different variants:
 
 ### Docs
 
-Also have a look at [ComposeStack](https://pkg.go.dev/github.com/testcontainers/testcontainers-go#ComposeStack) docs for
+Also have a look at [ComposeStack](https://pkg.go.dev/github.com/samkhawase/testcontainers-go#ComposeStack) docs for
 further information.
 
 ## Usage of the `docker compose` binary

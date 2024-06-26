@@ -16,9 +16,9 @@ import (
 	"github.com/docker/docker/errdefs"
 	"github.com/docker/go-connections/nat"
 
-	"github.com/testcontainers/testcontainers-go/internal/config"
-	"github.com/testcontainers/testcontainers-go/internal/core"
-	"github.com/testcontainers/testcontainers-go/wait"
+	"github.com/samkhawase/testcontainers-go/internal/config"
+	"github.com/samkhawase/testcontainers-go/internal/core"
+	"github.com/samkhawase/testcontainers-go/wait"
 )
 
 const (

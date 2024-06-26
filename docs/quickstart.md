@@ -12,7 +12,7 @@ Please read the [system requirements](../system_requirements/) page before you s
 We use [gomod](https://blog.golang.org/using-go-modules) and you can get it installed via:
 
 ```
-go get github.com/testcontainers/testcontainers-go
+go get github.com/samkhawase/testcontainers-go
 ```
 
 ## 3. Spin up Redis
@@ -21,8 +21,8 @@ go get github.com/testcontainers/testcontainers-go
 import (
 	"context"
 
-	"github.com/testcontainers/testcontainers-go"
-	"github.com/testcontainers/testcontainers-go/wait"
+	"github.com/samkhawase/testcontainers-go"
+	"github.com/samkhawase/testcontainers-go/wait"
 )
 
 func TestWithRedis(t *testing.T) {

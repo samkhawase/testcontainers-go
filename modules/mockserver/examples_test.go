@@ -10,8 +10,8 @@ import (
 
 	client "github.com/BraspagDevelopers/mock-server-client"
 
-	"github.com/testcontainers/testcontainers-go"
-	"github.com/testcontainers/testcontainers-go/modules/mockserver"
+	"github.com/samkhawase/testcontainers-go"
+	"github.com/samkhawase/testcontainers-go/modules/mockserver"
 )
 
 func ExampleRunContainer() {

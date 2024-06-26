@@ -1,7 +1,7 @@
 package localstack
 
 import (
-	"github.com/testcontainers/testcontainers-go"
+	"github.com/samkhawase/testcontainers-go"
 )
 
 // LocalStackContainer represents the LocalStack container type used in the module

@@ -4,7 +4,7 @@ import (
 	"path/filepath"
 	"text/template"
 
-	"github.com/testcontainers/testcontainers-go/modulegen/internal/context"
+	"github.com/samkhawase/testcontainers-go/modulegen/internal/context"
 )
 
 type Generator struct{}

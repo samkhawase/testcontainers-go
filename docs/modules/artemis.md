@@ -1,6 +1,6 @@
 # Apache ActiveMQ Artemis
 
-Since testcontainers-go <a href="https://github.com/testcontainers/testcontainers-go/releases/tag/v0.23.0"><span class="tc-version">:material-tag: v0.23.0</span></a>
+Since testcontainers-go <a href="https://github.com/samkhawase/testcontainers-go/releases/tag/v0.23.0"><span class="tc-version">:material-tag: v0.23.0</span></a>
 
 ## Introduction
 
@@ -11,7 +11,7 @@ The Testcontainers module for Artemis.
 Please run the following command to add the Artemis module to your Go dependencies:
 
 ```
-go get github.com/testcontainers/testcontainers-go/modules/artemis
+go get github.com/samkhawase/testcontainers-go/modules/artemis
 ```
 
 ## Usage example

@@ -4,7 +4,7 @@ import (
 	"path/filepath"
 	"text/template"
 
-	internal_template "github.com/testcontainers/testcontainers-go/modulegen/internal/template"
+	internal_template "github.com/samkhawase/testcontainers-go/modulegen/internal/template"
 )
 
 func GenerateMdFile(filePath string, funcMap template.FuncMap, example any) error {

@@ -1,6 +1,6 @@
 # Milvus
 
-Since testcontainers-go <a href="https://github.com/testcontainers/testcontainers-go/releases/tag/v0.29.0"><span class="tc-version">:material-tag: v0.29.0</span></a>
+Since testcontainers-go <a href="https://github.com/samkhawase/testcontainers-go/releases/tag/v0.29.0"><span class="tc-version">:material-tag: v0.29.0</span></a>
 
 ## Introduction
 
@@ -11,7 +11,7 @@ The Testcontainers module for Milvus.
 Please run the following command to add the Milvus module to your Go dependencies:
 
 ```
-go get github.com/testcontainers/testcontainers-go/modules/milvus
+go get github.com/samkhawase/testcontainers-go/modules/milvus
 ```
 
 ## Usage example

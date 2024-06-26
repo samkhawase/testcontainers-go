@@ -11,9 +11,9 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/testcontainers/testcontainers-go"
-	"github.com/testcontainers/testcontainers-go/exec"
-	"github.com/testcontainers/testcontainers-go/modules/ollama"
+	"github.com/samkhawase/testcontainers-go"
+	"github.com/samkhawase/testcontainers-go/exec"
+	"github.com/samkhawase/testcontainers-go/modules/ollama"
 )
 
 func TestOllama(t *testing.T) {

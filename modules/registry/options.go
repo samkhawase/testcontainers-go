@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/testcontainers/testcontainers-go"
+	"github.com/samkhawase/testcontainers-go"
 )
 
 const (

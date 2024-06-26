@@ -3,7 +3,7 @@ package testcontainers
 import (
 	"context"
 
-	"github.com/testcontainers/testcontainers-go/internal/core"
+	"github.com/samkhawase/testcontainers-go/internal/core"
 )
 
 // ExtractDockerSocket Extracts the docker socket from the different alternatives, removing the socket schema.

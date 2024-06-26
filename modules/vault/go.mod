@@ -1,4 +1,4 @@
-module github.com/testcontainers/testcontainers-go/modules/vault
+module github.com/samkhawase/testcontainers-go/modules/vault
 
 go 1.21
 
@@ -6,7 +6,7 @@ require (
 	github.com/docker/docker v25.0.5+incompatible
 	github.com/hashicorp/vault-client-go v0.4.3
 	github.com/stretchr/testify v1.9.0
-	github.com/testcontainers/testcontainers-go v0.31.0
+	github.com/samkhawase/testcontainers-go v0.31.0
 	github.com/tidwall/gjson v1.17.1
 )
 
@@ -73,4 +73,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/testcontainers/testcontainers-go => ../..
+replace github.com/samkhawase/testcontainers-go => ../..

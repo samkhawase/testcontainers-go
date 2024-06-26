@@ -9,7 +9,7 @@ import (
 	// Import mysql into the scope of this package (required)
 	_ "github.com/go-sql-driver/mysql"
 
-	"github.com/testcontainers/testcontainers-go/modules/mysql"
+	"github.com/samkhawase/testcontainers-go/modules/mysql"
 )
 
 func TestMySQL(t *testing.T) {

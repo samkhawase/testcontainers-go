@@ -9,7 +9,7 @@ import (
 	"github.com/docker/docker/pkg/stdcopy"
 	"github.com/stretchr/testify/require"
 
-	tcexec "github.com/testcontainers/testcontainers-go/exec"
+	tcexec "github.com/samkhawase/testcontainers-go/exec"
 )
 
 func TestExecWithOptions(t *testing.T) {

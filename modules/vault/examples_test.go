@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/testcontainers/testcontainers-go/exec"
-	"github.com/testcontainers/testcontainers-go/modules/vault"
+	"github.com/samkhawase/testcontainers-go/exec"
+	"github.com/samkhawase/testcontainers-go/modules/vault"
 )
 
 func ExampleRunContainer() {

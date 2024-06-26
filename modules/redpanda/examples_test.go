@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/testcontainers/testcontainers-go/modules/redpanda"
+	"github.com/samkhawase/testcontainers-go/modules/redpanda"
 )
 
 func ExampleRunContainer() {

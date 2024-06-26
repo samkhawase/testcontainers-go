@@ -1,11 +1,11 @@
-module github.com/testcontainers/testcontainers-go/modules/redpanda
+module github.com/samkhawase/testcontainers-go/modules/redpanda
 
 go 1.21
 
 require (
 	github.com/docker/go-connections v0.5.0
 	github.com/stretchr/testify v1.9.0
-	github.com/testcontainers/testcontainers-go v0.31.0
+	github.com/samkhawase/testcontainers-go v0.31.0
 	github.com/twmb/franz-go v1.16.1
 	github.com/twmb/franz-go/pkg/kadm v1.11.0
 	golang.org/x/mod v0.16.0
@@ -67,4 +67,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/testcontainers/testcontainers-go => ../..
+replace github.com/samkhawase/testcontainers-go => ../..

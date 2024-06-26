@@ -1,10 +1,10 @@
-module github.com/testcontainers/testcontainers-go/examples/nginx
+module github.com/samkhawase/testcontainers-go/examples/nginx
 
 go 1.21
 
-require github.com/testcontainers/testcontainers-go v0.31.0
+require github.com/samkhawase/testcontainers-go v0.31.0
 
-replace github.com/testcontainers/testcontainers-go => ../..
+replace github.com/samkhawase/testcontainers-go => ../..
 
 require (
 	dario.cat/mergo v1.0.0 // indirect

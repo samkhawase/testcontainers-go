@@ -6,7 +6,7 @@ import (
 
 	"github.com/docker/go-connections/nat"
 
-	"github.com/testcontainers/testcontainers-go"
+	"github.com/samkhawase/testcontainers-go"
 )
 
 const defaultProjectID = "test-project"

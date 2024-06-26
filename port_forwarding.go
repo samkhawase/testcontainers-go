@@ -11,7 +11,7 @@ import (
 	"github.com/google/uuid"
 	"golang.org/x/crypto/ssh"
 
-	"github.com/testcontainers/testcontainers-go/internal/core/network"
+	"github.com/samkhawase/testcontainers-go/internal/core/network"
 )
 
 const (

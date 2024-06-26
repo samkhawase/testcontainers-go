@@ -6,8 +6,8 @@ import (
 
 	"github.com/docker/docker/client"
 
-	"github.com/testcontainers/testcontainers-go/internal"
-	"github.com/testcontainers/testcontainers-go/internal/config"
+	"github.com/samkhawase/testcontainers-go/internal"
+	"github.com/samkhawase/testcontainers-go/internal/config"
 )
 
 // NewClient returns a new docker client extracting the docker host from the different alternatives

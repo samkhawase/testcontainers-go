@@ -1,4 +1,4 @@
-module github.com/testcontainers/testcontainers-go/modules/postgres
+module github.com/samkhawase/testcontainers-go/modules/postgres
 
 go 1.21
 
@@ -7,7 +7,7 @@ require (
 	github.com/jackc/pgx/v5 v5.5.4
 	github.com/lib/pq v1.10.9
 	github.com/stretchr/testify v1.9.0
-	github.com/testcontainers/testcontainers-go v0.31.0
+	github.com/samkhawase/testcontainers-go v0.31.0
 
 )
 
@@ -68,4 +68,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/testcontainers/testcontainers-go => ../..
+replace github.com/samkhawase/testcontainers-go => ../..

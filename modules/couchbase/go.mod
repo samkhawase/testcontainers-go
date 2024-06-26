@@ -1,4 +1,4 @@
-module github.com/testcontainers/testcontainers-go/modules/couchbase
+module github.com/samkhawase/testcontainers-go/modules/couchbase
 
 go 1.21
 
@@ -8,7 +8,7 @@ require (
 	github.com/cenkalti/backoff/v4 v4.2.1
 	github.com/couchbase/gocb/v2 v2.7.2
 	github.com/docker/go-connections v0.5.0
-	github.com/testcontainers/testcontainers-go v0.31.0
+	github.com/samkhawase/testcontainers-go v0.31.0
 	github.com/tidwall/gjson v1.17.1
 )
 
@@ -73,4 +73,4 @@ require (
 	google.golang.org/protobuf v1.33.0 // indirect
 )
 
-replace github.com/testcontainers/testcontainers-go => ../..
+replace github.com/samkhawase/testcontainers-go => ../..

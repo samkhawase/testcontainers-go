@@ -3,7 +3,7 @@ package modules
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/testcontainers/testcontainers-go/modulegen/internal/context"
+	"github.com/samkhawase/testcontainers-go/modulegen/internal/context"
 )
 
 var tcModuleVar = context.TestcontainersModuleVar{}

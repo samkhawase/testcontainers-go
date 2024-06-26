@@ -1,6 +1,6 @@
 # NATS
 
-Since testcontainers-go <a href="https://github.com/testcontainers/testcontainers-go/releases/tag/v0.24.0"><span class="tc-version">:material-tag: v0.24.0</span></a>
+Since testcontainers-go <a href="https://github.com/samkhawase/testcontainers-go/releases/tag/v0.24.0"><span class="tc-version">:material-tag: v0.24.0</span></a>
 
 ## Introduction
 
@@ -11,7 +11,7 @@ The Testcontainers module for NATS.
 Please run the following command to add the NATS module to your Go dependencies:
 
 ```
-go get github.com/testcontainers/testcontainers-go/modules/nats
+go get github.com/samkhawase/testcontainers-go/modules/nats
 ```
 
 ## Usage example

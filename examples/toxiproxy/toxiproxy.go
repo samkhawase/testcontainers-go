@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/testcontainers/testcontainers-go"
-	"github.com/testcontainers/testcontainers-go/wait"
+	"github.com/samkhawase/testcontainers-go"
+	"github.com/samkhawase/testcontainers-go/wait"
 )
 
 // toxiproxyContainer represents the toxiproxy container type used in the module

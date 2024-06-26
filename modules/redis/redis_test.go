@@ -11,8 +11,8 @@ import (
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/require"
 
-	"github.com/testcontainers/testcontainers-go"
-	tcredis "github.com/testcontainers/testcontainers-go/modules/redis"
+	"github.com/samkhawase/testcontainers-go"
+	tcredis "github.com/samkhawase/testcontainers-go/modules/redis"
 )
 
 func TestIntegrationSetGet(t *testing.T) {

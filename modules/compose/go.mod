@@ -1,8 +1,8 @@
-module github.com/testcontainers/testcontainers-go/modules/compose
+module github.com/samkhawase/testcontainers-go/modules/compose
 
 go 1.21
 
-replace github.com/testcontainers/testcontainers-go => ../..
+replace github.com/samkhawase/testcontainers-go => ../..
 
 require (
 	github.com/compose-spec/compose-go/v2 v2.1.0
@@ -11,7 +11,7 @@ require (
 	github.com/docker/docker v26.1.0+incompatible
 	github.com/google/uuid v1.6.0
 	github.com/stretchr/testify v1.9.0
-	github.com/testcontainers/testcontainers-go v0.31.0
+	github.com/samkhawase/testcontainers-go v0.31.0
 	golang.org/x/sync v0.7.0
 	gopkg.in/yaml.v3 v3.0.1
 )

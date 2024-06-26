@@ -1,10 +1,10 @@
-module github.com/testcontainers/testcontainers-go/modules/k6
+module github.com/samkhawase/testcontainers-go/modules/k6
 
 go 1.21
 
 require (
 	github.com/docker/docker v25.0.5+incompatible
-	github.com/testcontainers/testcontainers-go v0.31.0
+	github.com/samkhawase/testcontainers-go v0.31.0
 )
 
 require (
@@ -57,4 +57,4 @@ require (
 	google.golang.org/protobuf v1.33.0 // indirect
 )
 
-replace github.com/testcontainers/testcontainers-go => ../..
+replace github.com/samkhawase/testcontainers-go => ../..

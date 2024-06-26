@@ -1,10 +1,10 @@
-module github.com/testcontainers/testcontainers-go/modules/mockserver
+module github.com/samkhawase/testcontainers-go/modules/mockserver
 
 go 1.21
 
 require (
 	github.com/BraspagDevelopers/mock-server-client v0.2.2
-	github.com/testcontainers/testcontainers-go v0.31.0
+	github.com/samkhawase/testcontainers-go v0.31.0
 )
 
 require (
@@ -60,4 +60,4 @@ require (
 	google.golang.org/protobuf v1.33.0 // indirect
 )
 
-replace github.com/testcontainers/testcontainers-go => ../..
+replace github.com/samkhawase/testcontainers-go => ../..

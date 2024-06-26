@@ -1,7 +1,7 @@
 package elasticsearch
 
 import (
-	"github.com/testcontainers/testcontainers-go"
+	"github.com/samkhawase/testcontainers-go"
 )
 
 // Options is a struct for specifying options for the Elasticsearch container.

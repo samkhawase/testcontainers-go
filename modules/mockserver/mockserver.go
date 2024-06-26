@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/testcontainers/testcontainers-go"
-	"github.com/testcontainers/testcontainers-go/wait"
+	"github.com/samkhawase/testcontainers-go"
+	"github.com/samkhawase/testcontainers-go/wait"
 )
 
 // defaultImage is the default MockServer container image

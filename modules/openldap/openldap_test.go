@@ -7,8 +7,8 @@ import (
 
 	"github.com/go-ldap/ldap/v3"
 
-	"github.com/testcontainers/testcontainers-go"
-	"github.com/testcontainers/testcontainers-go/modules/openldap"
+	"github.com/samkhawase/testcontainers-go"
+	"github.com/samkhawase/testcontainers-go/modules/openldap"
 )
 
 func TestOpenLDAP(t *testing.T) {

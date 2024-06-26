@@ -1,10 +1,10 @@
-module github.com/testcontainers/testcontainers-go/modules/surrealdb
+module github.com/samkhawase/testcontainers-go/modules/surrealdb
 
 go 1.21
 
 require (
 	github.com/surrealdb/surrealdb.go v0.2.1
-	github.com/testcontainers/testcontainers-go v0.31.0
+	github.com/samkhawase/testcontainers-go v0.31.0
 )
 
 require (
@@ -59,4 +59,4 @@ require (
 	google.golang.org/protobuf v1.33.0 // indirect
 )
 
-replace github.com/testcontainers/testcontainers-go => ../..
+replace github.com/samkhawase/testcontainers-go => ../..

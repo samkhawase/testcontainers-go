@@ -10,7 +10,7 @@ import (
 	"github.com/cpuguy83/dockercfg"
 	"github.com/docker/docker/api/types/registry"
 
-	"github.com/testcontainers/testcontainers-go/internal/core"
+	"github.com/samkhawase/testcontainers-go/internal/core"
 )
 
 // defaultRegistryFn is variable overwritten in tests to check for behaviour with different default values.

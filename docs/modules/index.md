@@ -11,7 +11,7 @@ If it's already there, you can use it as a dependency in your project, and you c
 2. If it is not present there, please consider where you are going to host the module: under your own GitHub account as a **Community module**, or under the `testcontainers-go` repository.
 3. If you're a vendor interested in creating an **Official module** for your project/product, please contact us, see below.
 
-In any case, we will be happy to assist you in the process of creating the module. Please feel free to ask for assistance in our [Slack](https://slack.testcontainers.org/) or in the [GitHub Discussions](https://github.com/testcontainers/testcontainers-go/discussions).
+In any case, we will be happy to assist you in the process of creating the module. Please feel free to ask for assistance in our [Slack](https://slack.testcontainers.org/) or in the [GitHub Discussions](https://github.com/samkhawase/testcontainers-go/discussions).
 
 ### Community modules
 
@@ -26,7 +26,7 @@ including updating the module to the latest version of _Testcontainers for Go_ i
 - once created, you'll need to add the module to the [Modules Catalog](https://testcontainers.com/modules/?language=go) in order to be listed there.
 You can do this by submitting a PR to the [community repository](https://github.com/testcontainers/community-module-registry).
 An example can be found [here](https://github.com/testcontainers/community-module-registry/pull/21/files).
-- you'll need to add the module to the [Go documentation](https://pkg.go.dev) in order to be listed there. Please check our [Releasing docs](https://github.com/testcontainers/testcontainers-go/blob/main/RELEASING.md) for more information about triggering the Golang Proxy.
+- you'll need to add the module to the [Go documentation](https://pkg.go.dev) in order to be listed there. Please check our [Releasing docs](https://github.com/samkhawase/testcontainers-go/blob/main/RELEASING.md) for more information about triggering the Golang Proxy.
 
 ### Modules hosted under the `testcontainers-go` repository
 
@@ -37,7 +37,7 @@ We are happy to review and merge your PRs, and we are also happy to help you wit
 But this is a shared responsibility, so we expect you to be involved in the maintenance, documentation and support of the module.
 - the module will be part of the CI/CD pipeline of the `testcontainers-go` repository, so it will be tested and released with the rest of the modules.
 Think of Github workflows, release notes, etc. Although it sounds great, which it is, it also means that it will increase the build time in our CI/CD pipeline on Github, including flaky tests, number of dependency updates, etc. So in the end it's more work for us.
-- once created, we'll add the module to the [Modules Catalog](https://testcontainers.com/modules/?language=go) and to the [Go documentation](https://pkg.go.dev/github.com/testcontainers/testcontainers-go).
+- once created, we'll add the module to the [Modules Catalog](https://testcontainers.com/modules/?language=go) and to the [Go documentation](https://pkg.go.dev/github.com/samkhawase/testcontainers-go).
 
 ## Creating a new module
 

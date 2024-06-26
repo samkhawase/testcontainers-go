@@ -3,7 +3,7 @@ package nats
 import (
 	"strings"
 
-	"github.com/testcontainers/testcontainers-go"
+	"github.com/samkhawase/testcontainers-go"
 )
 
 type options struct {

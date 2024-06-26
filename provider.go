@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/testcontainers/testcontainers-go/internal/core"
+	"github.com/samkhawase/testcontainers-go/internal/core"
 )
 
 // possible provider types

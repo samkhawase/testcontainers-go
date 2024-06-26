@@ -1,7 +1,7 @@
 package testcontainers
 
 import (
-	"github.com/testcontainers/testcontainers-go/internal/config"
+	"github.com/samkhawase/testcontainers-go/internal/config"
 )
 
 // TestcontainersConfig represents the configuration for Testcontainers

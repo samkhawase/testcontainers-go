@@ -6,7 +6,7 @@ import (
 
 	"github.com/nats-io/nats.go"
 
-	tcnats "github.com/testcontainers/testcontainers-go/modules/nats"
+	tcnats "github.com/samkhawase/testcontainers-go/modules/nats"
 )
 
 func TestNATS(t *testing.T) {

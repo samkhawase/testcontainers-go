@@ -10,9 +10,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/testcontainers/testcontainers-go/modulegen/internal"
-	"github.com/testcontainers/testcontainers-go/modulegen/internal/context"
-	"github.com/testcontainers/testcontainers-go/modulegen/internal/mkdocs"
+	"github.com/samkhawase/testcontainers-go/modulegen/internal"
+	"github.com/samkhawase/testcontainers-go/modulegen/internal/context"
+	"github.com/samkhawase/testcontainers-go/modulegen/internal/mkdocs"
 )
 
 func TestModule(t *testing.T) {
@@ -365,12 +365,12 @@ func assertModuleDocContent(t *testing.T, module context.TestcontainersModule, m
 
 	data := sanitiseContent(content)
 	assert.Equal(t, data[0], "# "+title)
-	assert.Equal(t, `Not available until the next release of testcontainers-go <a href="https://github.com/testcontainers/testcontainers-go"><span class="tc-version">:material-tag: main</span></a>`, data[2])
+	assert.Equal(t, `Not available until the next release of testcontainers-go <a href="https://github.com/samkhawase/testcontainers-go"><span class="tc-version">:material-tag: main</span></a>`, data[2])
 	assert.Equal(t, "## Introduction", data[4])
 	assert.Equal(t, data[6], "The Testcontainers module for "+title+".")
 	assert.Equal(t, "## Adding this module to your project dependencies", data[8])
 	assert.Equal(t, data[10], "Please run the following command to add the "+title+" module to your Go dependencies:")
-	assert.Equal(t, data[13], "go get github.com/testcontainers/testcontainers-go/"+module.ParentDir()+"/"+lower)
+	assert.Equal(t, data[13], "go get github.com/samkhawase/testcontainers-go/"+module.ParentDir()+"/"+lower)
 	assert.Equal(t, "<!--codeinclude-->", data[18])
 	assert.Equal(t, data[19], "[Creating a "+title+" container](../../"+module.ParentDir()+"/"+lower+"/examples_test.go) inside_block:run"+title+"Container")
 	assert.Equal(t, "<!--/codeinclude-->", data[20])
@@ -390,8 +390,8 @@ func assertExamplesTestContent(t *testing.T, module context.TestcontainersModule
 
 	data := sanitiseContent(content)
 	assert.Equal(t, "package "+lower+"_test", data[0])
-	assert.Equal(t, "\t\"github.com/testcontainers/testcontainers-go\"", data[7])
-	assert.Equal(t, "\t\"github.com/testcontainers/testcontainers-go/modules/"+lower+"\"", data[8])
+	assert.Equal(t, "\t\"github.com/samkhawase/testcontainers-go\"", data[7])
+	assert.Equal(t, "\t\"github.com/samkhawase/testcontainers-go/modules/"+lower+"\"", data[8])
 	assert.Equal(t, "func Example"+entrypoint+"() {", data[11])
 	assert.Equal(t, "\t// run"+title+"Container {", data[12])
 	assert.Equal(t, "\t"+lower+"Container, err := "+lower+"."+entrypoint+"(ctx, testcontainers.WithImage(\""+module.Image+"\"))", data[15])
@@ -456,9 +456,9 @@ func assertGoModContent(t *testing.T, module context.TestcontainersModule, tcVer
 	require.NoError(t, err)
 
 	data := sanitiseContent(content)
-	assert.Equal(t, "module github.com/testcontainers/testcontainers-go/"+module.ParentDir()+"/"+module.Lower(), data[0])
-	assert.Equal(t, "require github.com/testcontainers/testcontainers-go "+tcVersion, data[4])
-	assert.Equal(t, "replace github.com/testcontainers/testcontainers-go => ../..", data[6])
+	assert.Equal(t, "module github.com/samkhawase/testcontainers-go/"+module.ParentDir()+"/"+module.Lower(), data[0])
+	assert.Equal(t, "require github.com/samkhawase/testcontainers-go "+tcVersion, data[4])
+	assert.Equal(t, "replace github.com/samkhawase/testcontainers-go => ../..", data[6])
 }
 
 // assert content Makefile

@@ -3,7 +3,7 @@ package cassandra
 import (
 	"strings"
 
-	"github.com/testcontainers/testcontainers-go"
+	"github.com/samkhawase/testcontainers-go"
 )
 
 type initScript struct {

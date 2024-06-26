@@ -1,6 +1,6 @@
 # K3s
 
-Since testcontainers-go <a href="https://github.com/testcontainers/testcontainers-go/releases/tag/v0.21.0"><span class="tc-version">:material-tag: v0.21.0</span></a>
+Since testcontainers-go <a href="https://github.com/samkhawase/testcontainers-go/releases/tag/v0.21.0"><span class="tc-version">:material-tag: v0.21.0</span></a>
 
 ## Introduction
 
@@ -11,7 +11,7 @@ The Testcontainers module for K3s.
 Please run the following command to add the K3s module to your Go dependencies:
 
 ```
-go get github.com/testcontainers/testcontainers-go/modules/k3s
+go get github.com/samkhawase/testcontainers-go/modules/k3s
 ```
 
 ## Usage example
@@ -82,4 +82,4 @@ The `LoadImages` method loads a list of images into the kubernetes cluster and m
 
 This is useful for testing images generated locally without having to push them to a public docker registry or having to configure `k3s` to [use a private registry](https://docs.k3s.io/installation/private-registry).
 
-The images must be already present in the node running the test. [DockerProvider](https://pkg.go.dev/github.com/testcontainers/testcontainers-go#DockerProvider) offers a method for pulling images, which can be used from the test code to ensure the image is present locally before loading them to the cluster.
+The images must be already present in the node running the test. [DockerProvider](https://pkg.go.dev/github.com/samkhawase/testcontainers-go#DockerProvider) offers a method for pulling images, which can be used from the test code to ensure the image is present locally before loading them to the cluster.

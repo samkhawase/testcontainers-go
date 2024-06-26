@@ -9,8 +9,8 @@ import (
 
 	es "github.com/elastic/go-elasticsearch/v8"
 
-	"github.com/testcontainers/testcontainers-go"
-	"github.com/testcontainers/testcontainers-go/modules/elasticsearch"
+	"github.com/samkhawase/testcontainers-go"
+	"github.com/samkhawase/testcontainers-go/modules/elasticsearch"
 )
 
 func ExampleRunContainer() {

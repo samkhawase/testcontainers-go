@@ -13,8 +13,8 @@ import (
 
 	"github.com/docker/docker/api/types/mount"
 
-	"github.com/testcontainers/testcontainers-go"
-	"github.com/testcontainers/testcontainers-go/wait"
+	"github.com/samkhawase/testcontainers-go"
+	"github.com/samkhawase/testcontainers-go/wait"
 )
 
 // K6Container represents the K6 container type used in the module

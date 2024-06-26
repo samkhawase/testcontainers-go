@@ -1,10 +1,10 @@
-module github.com/testcontainers/testcontainers-go/modules/qdrant
+module github.com/samkhawase/testcontainers-go/modules/qdrant
 
 go 1.21
 
 require (
 	github.com/qdrant/go-client v1.7.0
-	github.com/testcontainers/testcontainers-go v0.31.0
+	github.com/samkhawase/testcontainers-go v0.31.0
 	google.golang.org/grpc v1.62.0
 )
 
@@ -60,4 +60,4 @@ require (
 	google.golang.org/protobuf v1.33.0 // indirect
 )
 
-replace github.com/testcontainers/testcontainers-go => ../..
+replace github.com/samkhawase/testcontainers-go => ../..

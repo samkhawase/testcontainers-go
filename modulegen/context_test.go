@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/testcontainers/testcontainers-go/modulegen/internal/context"
+	"github.com/samkhawase/testcontainers-go/modulegen/internal/context"
 )
 
 func getTestRootContext(t *testing.T) context.Context {

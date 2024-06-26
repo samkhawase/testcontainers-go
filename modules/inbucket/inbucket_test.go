@@ -7,7 +7,7 @@ import (
 
 	"github.com/inbucket/inbucket/pkg/rest/client"
 
-	"github.com/testcontainers/testcontainers-go"
+	"github.com/samkhawase/testcontainers-go"
 )
 
 func TestInbucket(t *testing.T) {

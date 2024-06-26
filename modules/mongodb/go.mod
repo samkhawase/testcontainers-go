@@ -1,9 +1,9 @@
-module github.com/testcontainers/testcontainers-go/modules/mongodb
+module github.com/samkhawase/testcontainers-go/modules/mongodb
 
 go 1.21
 
 require (
-	github.com/testcontainers/testcontainers-go v0.31.0
+	github.com/samkhawase/testcontainers-go v0.31.0
 	go.mongodb.org/mongo-driver v1.13.1
 )
 
@@ -66,4 +66,4 @@ require (
 	google.golang.org/protobuf v1.33.0 // indirect
 )
 
-replace github.com/testcontainers/testcontainers-go => ../..
+replace github.com/samkhawase/testcontainers-go => ../..

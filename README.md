@@ -4,11 +4,11 @@
 
 **Builds**
 
-[![Main pipeline](https://github.com/testcontainers/testcontainers-go/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/testcontainers/testcontainers-go/actions/workflows/ci.yml)
+[![Main pipeline](https://github.com/samkhawase/testcontainers-go/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/samkhawase/testcontainers-go/actions/workflows/ci.yml)
 
 **Documentation**
 
-[![GoDoc Reference](https://pkg.go.dev/badge/github.com/testcontainers/testcontainers-go.svg)](https://pkg.go.dev/github.com/testcontainers/testcontainers-go)
+[![GoDoc Reference](https://pkg.go.dev/badge/github.com/samkhawase/testcontainers-go.svg)](https://pkg.go.dev/github.com/samkhawase/testcontainers-go)
 
 **Social**
 
@@ -16,12 +16,12 @@
 
 **Code quality**
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/testcontainers/testcontainers-go)](https://goreportcard.com/report/github.com/testcontainers/testcontainers-go)
+[![Go Report Card](https://goreportcard.com/badge/github.com/samkhawase/testcontainers-go)](https://goreportcard.com/report/github.com/samkhawase/testcontainers-go)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=testcontainers_testcontainers-go&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=testcontainers_testcontainers-go)
 
 **License**
 
-[![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/testcontainers/testcontainers-go/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/samkhawase/testcontainers-go/blob/main/LICENSE)
 
 _Testcontainers for Go_ is a Go package that makes it simple to create and clean up container-based dependencies for
 automated integration/smoke tests. The clean, easy-to-use API enables developers to programmatically define containers

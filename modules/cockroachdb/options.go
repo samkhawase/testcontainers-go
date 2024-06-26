@@ -1,6 +1,6 @@
 package cockroachdb
 
-import "github.com/testcontainers/testcontainers-go"
+import "github.com/samkhawase/testcontainers-go"
 
 type options struct {
 	Database  string

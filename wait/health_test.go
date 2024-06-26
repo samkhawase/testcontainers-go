@@ -10,7 +10,7 @@ import (
 	"github.com/docker/go-connections/nat"
 	"github.com/stretchr/testify/require"
 
-	tcexec "github.com/testcontainers/testcontainers-go/exec"
+	tcexec "github.com/samkhawase/testcontainers-go/exec"
 )
 
 type healthStrategyTarget struct {

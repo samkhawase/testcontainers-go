@@ -1,6 +1,6 @@
 package couchbase
 
-import "github.com/testcontainers/testcontainers-go"
+import "github.com/samkhawase/testcontainers-go"
 
 // Option is a function that configures the Couchbase container.
 // Deprecated: Use the With* functions instead.

@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/testcontainers/testcontainers-go"
-	tcexec "github.com/testcontainers/testcontainers-go/exec"
-	"github.com/testcontainers/testcontainers-go/network"
+	"github.com/samkhawase/testcontainers-go"
+	tcexec "github.com/samkhawase/testcontainers-go/exec"
+	"github.com/samkhawase/testcontainers-go/network"
 )
 
 const (

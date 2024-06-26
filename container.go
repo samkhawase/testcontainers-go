@@ -19,9 +19,9 @@ import (
 	"github.com/google/uuid"
 	"github.com/moby/patternmatcher/ignorefile"
 
-	tcexec "github.com/testcontainers/testcontainers-go/exec"
-	"github.com/testcontainers/testcontainers-go/internal/core"
-	"github.com/testcontainers/testcontainers-go/wait"
+	tcexec "github.com/samkhawase/testcontainers-go/exec"
+	"github.com/samkhawase/testcontainers-go/internal/core"
+	"github.com/samkhawase/testcontainers-go/wait"
 )
 
 // DeprecatedContainer shows methods that were supported before, but are now deprecated

@@ -17,8 +17,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/testcontainers/testcontainers-go/internal/config"
-	"github.com/testcontainers/testcontainers-go/wait"
+	"github.com/samkhawase/testcontainers-go/internal/config"
+	"github.com/samkhawase/testcontainers-go/wait"
 )
 
 const lastMessage = "DONE"
@@ -233,7 +233,7 @@ func Test_MultipleLogConsumers(t *testing.T) {
 
 func TestContainerLogWithErrClosed(t *testing.T) {
 	if os.Getenv("GITHUB_RUN_ID") != "" {
-		t.Skip("Skipping as flaky on GitHub Actions, Please see https://github.com/testcontainers/testcontainers-go/issues/1924")
+		t.Skip("Skipping as flaky on GitHub Actions, Please see https://github.com/samkhawase/testcontainers-go/issues/1924")
 	}
 
 	t.Cleanup(func() {

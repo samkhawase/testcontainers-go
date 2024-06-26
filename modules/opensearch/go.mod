@@ -1,11 +1,11 @@
-module github.com/testcontainers/testcontainers-go/modules/opensearch
+module github.com/samkhawase/testcontainers-go/modules/opensearch
 
 go 1.21
 
 require (
 	github.com/docker/docker v25.0.5+incompatible
 	github.com/docker/go-units v0.5.0
-	github.com/testcontainers/testcontainers-go v0.31.0
+	github.com/samkhawase/testcontainers-go v0.31.0
 )
 
 require (
@@ -57,4 +57,4 @@ require (
 	google.golang.org/protobuf v1.33.0 // indirect
 )
 
-replace github.com/testcontainers/testcontainers-go => ../..
+replace github.com/samkhawase/testcontainers-go => ../..

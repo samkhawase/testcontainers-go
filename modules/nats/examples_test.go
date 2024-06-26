@@ -7,8 +7,8 @@ import (
 
 	natsgo "github.com/nats-io/nats.go"
 
-	"github.com/testcontainers/testcontainers-go"
-	"github.com/testcontainers/testcontainers-go/modules/nats"
+	"github.com/samkhawase/testcontainers-go"
+	"github.com/samkhawase/testcontainers-go/modules/nats"
 )
 
 func ExampleRunContainer() {

@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/testcontainers/testcontainers-go/modulegen/internal/context"
-	"github.com/testcontainers/testcontainers-go/modulegen/internal/make"
-	"github.com/testcontainers/testcontainers-go/modulegen/internal/mkdocs"
-	"github.com/testcontainers/testcontainers-go/modulegen/internal/module"
-	"github.com/testcontainers/testcontainers-go/modulegen/internal/sonar"
-	"github.com/testcontainers/testcontainers-go/modulegen/internal/tools"
-	"github.com/testcontainers/testcontainers-go/modulegen/internal/vscode"
-	"github.com/testcontainers/testcontainers-go/modulegen/internal/workflow"
+	"github.com/samkhawase/testcontainers-go/modulegen/internal/context"
+	"github.com/samkhawase/testcontainers-go/modulegen/internal/make"
+	"github.com/samkhawase/testcontainers-go/modulegen/internal/mkdocs"
+	"github.com/samkhawase/testcontainers-go/modulegen/internal/module"
+	"github.com/samkhawase/testcontainers-go/modulegen/internal/sonar"
+	"github.com/samkhawase/testcontainers-go/modulegen/internal/tools"
+	"github.com/samkhawase/testcontainers-go/modulegen/internal/vscode"
+	"github.com/samkhawase/testcontainers-go/modulegen/internal/workflow"
 )
 
 func Generate(moduleVar context.TestcontainersModuleVar, isModule bool) error {

@@ -11,8 +11,8 @@ import (
 	"github.com/mdelapenya/tlscert"
 	amqp "github.com/rabbitmq/amqp091-go"
 
-	"github.com/testcontainers/testcontainers-go"
-	"github.com/testcontainers/testcontainers-go/modules/rabbitmq"
+	"github.com/samkhawase/testcontainers-go"
+	"github.com/samkhawase/testcontainers-go/modules/rabbitmq"
 )
 
 func ExampleRunContainer() {

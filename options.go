@@ -9,9 +9,9 @@ import (
 	"github.com/docker/docker/api/types/container"
 	"github.com/docker/docker/api/types/network"
 
-	tcexec "github.com/testcontainers/testcontainers-go/exec"
-	"github.com/testcontainers/testcontainers-go/internal/core"
-	"github.com/testcontainers/testcontainers-go/wait"
+	tcexec "github.com/samkhawase/testcontainers-go/exec"
+	"github.com/samkhawase/testcontainers-go/internal/core"
+	"github.com/samkhawase/testcontainers-go/wait"
 )
 
 // ContainerCustomizer is an interface that can be used to configure the Testcontainers container

@@ -6,7 +6,7 @@ import (
 	"log"
 	"net/url"
 
-	"github.com/testcontainers/testcontainers-go/modules/cockroachdb"
+	"github.com/samkhawase/testcontainers-go/modules/cockroachdb"
 )
 
 func ExampleRunContainer() {

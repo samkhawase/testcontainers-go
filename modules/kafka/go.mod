@@ -1,11 +1,11 @@
-module github.com/testcontainers/testcontainers-go/modules/kafka
+module github.com/samkhawase/testcontainers-go/modules/kafka
 
 go 1.21
 
 require (
 	github.com/IBM/sarama v1.42.1
 	github.com/docker/go-connections v0.5.0
-	github.com/testcontainers/testcontainers-go v0.31.0
+	github.com/samkhawase/testcontainers-go v0.31.0
 	golang.org/x/mod v0.16.0
 )
 
@@ -74,4 +74,4 @@ require (
 	google.golang.org/protobuf v1.33.0 // indirect
 )
 
-replace github.com/testcontainers/testcontainers-go => ../..
+replace github.com/samkhawase/testcontainers-go => ../..

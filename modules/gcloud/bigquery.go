@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/testcontainers/testcontainers-go"
-	"github.com/testcontainers/testcontainers-go/wait"
+	"github.com/samkhawase/testcontainers-go"
+	"github.com/samkhawase/testcontainers-go/wait"
 )
 
 // RunBigQueryContainer creates an instance of the GCloud container type for BigQuery.

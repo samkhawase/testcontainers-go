@@ -7,8 +7,8 @@ import (
 
 	capi "github.com/hashicorp/consul/api"
 
-	"github.com/testcontainers/testcontainers-go"
-	"github.com/testcontainers/testcontainers-go/modules/consul"
+	"github.com/samkhawase/testcontainers-go"
+	"github.com/samkhawase/testcontainers-go/modules/consul"
 )
 
 func ExampleRunContainer() {

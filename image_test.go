@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/testcontainers/testcontainers-go/internal/core"
+	"github.com/samkhawase/testcontainers-go/internal/core"
 )
 
 func TestImageList(t *testing.T) {

@@ -6,9 +6,9 @@ import (
 	"log"
 	"path/filepath"
 
-	"github.com/testcontainers/testcontainers-go"
-	"github.com/testcontainers/testcontainers-go/modules/k6"
-	"github.com/testcontainers/testcontainers-go/wait"
+	"github.com/samkhawase/testcontainers-go"
+	"github.com/samkhawase/testcontainers-go/modules/k6"
+	"github.com/samkhawase/testcontainers-go/wait"
 )
 
 func ExampleRunContainer() {

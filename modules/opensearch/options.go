@@ -1,6 +1,6 @@
 package opensearch
 
-import "github.com/testcontainers/testcontainers-go"
+import "github.com/samkhawase/testcontainers-go"
 
 // Options is a struct for specifying options for the OpenSearch container.
 type Options struct {

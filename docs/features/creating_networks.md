@@ -2,12 +2,12 @@
 
 Apart from creating containers, `Testcontainers for Go` allows you to create networks. This is useful when you need to connect multiple containers to the same network.
 
-- Since testcontainers-go <a href="https://github.com/testcontainers/testcontainers-go/releases/tag/v0.27.0"><span class="tc-version">:material-tag: v0.27.0</span></a>
+- Since testcontainers-go <a href="https://github.com/samkhawase/testcontainers-go/releases/tag/v0.27.0"><span class="tc-version">:material-tag: v0.27.0</span></a>
 
 For that, please import the `testcontainers/network` package.
 
 ```go
-import "github.com/testcontainers/testcontainers-go/network"
+import "github.com/samkhawase/testcontainers-go/network"
 ```
 
 Then, you can create a network using the `network.New` function. This function receives a variadic list of options that can be used to configure the network.

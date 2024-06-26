@@ -10,8 +10,8 @@ import (
 	"github.com/docker/docker/api/types/container"
 	"github.com/docker/go-units"
 
-	"github.com/testcontainers/testcontainers-go"
-	"github.com/testcontainers/testcontainers-go/wait"
+	"github.com/samkhawase/testcontainers-go"
+	"github.com/samkhawase/testcontainers-go/wait"
 )
 
 const (

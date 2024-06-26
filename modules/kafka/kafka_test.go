@@ -8,8 +8,8 @@ import (
 
 	"github.com/IBM/sarama"
 
-	"github.com/testcontainers/testcontainers-go"
-	"github.com/testcontainers/testcontainers-go/modules/kafka"
+	"github.com/samkhawase/testcontainers-go"
+	"github.com/samkhawase/testcontainers-go/modules/kafka"
 )
 
 func TestKafka(t *testing.T) {

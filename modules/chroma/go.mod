@@ -1,11 +1,11 @@
-module github.com/testcontainers/testcontainers-go/modules/chroma
+module github.com/samkhawase/testcontainers-go/modules/chroma
 
 go 1.21
 
 require (
 	github.com/amikos-tech/chroma-go v0.1.2
 	github.com/stretchr/testify v1.9.0
-	github.com/testcontainers/testcontainers-go v0.31.0
+	github.com/samkhawase/testcontainers-go v0.31.0
 )
 
 require (
@@ -65,4 +65,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/testcontainers/testcontainers-go => ../..
+replace github.com/samkhawase/testcontainers-go => ../..

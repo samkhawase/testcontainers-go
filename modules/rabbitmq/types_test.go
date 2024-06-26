@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/testcontainers/testcontainers-go"
+	"github.com/samkhawase/testcontainers-go"
 )
 
 // The following structs are added as a demonstration for the RabbitMQ management API therefore,

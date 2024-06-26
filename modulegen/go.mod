@@ -1,4 +1,4 @@
-module github.com/testcontainers/testcontainers-go/modulegen
+module github.com/samkhawase/testcontainers-go/modulegen
 
 go 1.21
 

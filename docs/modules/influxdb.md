@@ -1,6 +1,6 @@
 # InfluxDB
 
-Since testcontainers-go <a href="https://github.com/testcontainers/testcontainers-go/releases/tag/v0.30.0"><span class="tc-version">:material-tag: v0.30.0</span></a>
+Since testcontainers-go <a href="https://github.com/samkhawase/testcontainers-go/releases/tag/v0.30.0"><span class="tc-version">:material-tag: v0.30.0</span></a>
 
 ## Introduction
 
@@ -11,7 +11,7 @@ A testcontainers module for InfluxDB.  This module supports v1.x of InfluxDB.
 Please run the following command to add the InfluxDB module to your Go dependencies:
 
 ```
-go get github.com/testcontainers/testcontainers-go/modules/influxdb
+go get github.com/samkhawase/testcontainers-go/modules/influxdb
 ```
 
 ## Usage example

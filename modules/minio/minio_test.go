@@ -9,8 +9,8 @@ import (
 	"github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/credentials"
 
-	"github.com/testcontainers/testcontainers-go"
-	tcminio "github.com/testcontainers/testcontainers-go/modules/minio"
+	"github.com/samkhawase/testcontainers-go"
+	tcminio "github.com/samkhawase/testcontainers-go/modules/minio"
 )
 
 func TestMinio(t *testing.T) {

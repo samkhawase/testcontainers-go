@@ -10,8 +10,8 @@ import (
 	"github.com/tmc/langchaingo/llms"
 	langchainollama "github.com/tmc/langchaingo/llms/ollama"
 
-	"github.com/testcontainers/testcontainers-go"
-	tcollama "github.com/testcontainers/testcontainers-go/modules/ollama"
+	"github.com/samkhawase/testcontainers-go"
+	tcollama "github.com/samkhawase/testcontainers-go/modules/ollama"
 )
 
 func ExampleRunContainer() {

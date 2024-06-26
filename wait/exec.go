@@ -5,7 +5,7 @@ import (
 	"io"
 	"time"
 
-	tcexec "github.com/testcontainers/testcontainers-go/exec"
+	tcexec "github.com/samkhawase/testcontainers-go/exec"
 )
 
 // Implement interface

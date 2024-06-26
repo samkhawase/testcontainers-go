@@ -20,7 +20,7 @@ package some_test
 
 import (
     "testing"
-    tc "github.com/testcontainers/testcontainers-go"
+    tc "github.com/samkhawase/testcontainers-go"
 )
 
 func TestSomething(t *testing.T) {

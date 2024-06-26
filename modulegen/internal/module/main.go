@@ -6,10 +6,10 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/testcontainers/testcontainers-go/modulegen/internal/context"
-	"github.com/testcontainers/testcontainers-go/modulegen/internal/mkdocs"
-	"github.com/testcontainers/testcontainers-go/modulegen/internal/modfile"
-	internal_template "github.com/testcontainers/testcontainers-go/modulegen/internal/template"
+	"github.com/samkhawase/testcontainers-go/modulegen/internal/context"
+	"github.com/samkhawase/testcontainers-go/modulegen/internal/mkdocs"
+	"github.com/samkhawase/testcontainers-go/modulegen/internal/modfile"
+	internal_template "github.com/samkhawase/testcontainers-go/modulegen/internal/template"
 )
 
 type Generator struct{}

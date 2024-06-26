@@ -1,4 +1,4 @@
-module github.com/testcontainers/testcontainers-go/modules/redis
+module github.com/samkhawase/testcontainers-go/modules/redis
 
 go 1.21
 
@@ -6,11 +6,11 @@ require (
 	github.com/go-redis/redis/v8 v8.11.5
 	github.com/google/uuid v1.6.0
 	github.com/stretchr/testify v1.9.0
-	github.com/testcontainers/testcontainers-go v0.31.0
+	github.com/samkhawase/testcontainers-go v0.31.0
 
 )
 
-replace github.com/testcontainers/testcontainers-go => ../..
+replace github.com/samkhawase/testcontainers-go => ../..
 
 require (
 	dario.cat/mergo v1.0.0 // indirect

@@ -22,8 +22,8 @@ import (
 	"github.com/docker/docker/client"
 	"golang.org/x/sync/errgroup"
 
-	testcontainers "github.com/testcontainers/testcontainers-go"
-	wait "github.com/testcontainers/testcontainers-go/wait"
+	testcontainers "github.com/samkhawase/testcontainers-go"
+	wait "github.com/samkhawase/testcontainers-go/wait"
 )
 
 type stackUpOptionFunc func(s *stackUpOptions)

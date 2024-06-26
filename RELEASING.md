@@ -7,7 +7,7 @@ In order to create a release, we have added a shell script that performs all the
 First, it's really important that you first check that the [version.go](./internal/version.go) file is up-to-date, containing the right version you want to create. That file will be used by the automation to perform the release.
 Once the version file is correct in the repository:
 
-Second, check that the git remote for the `origin` is pointing to `github.com/testcontainers/testcontainers-go`. You can check it by running:
+Second, check that the git remote for the `origin` is pointing to `github.com/samkhawase/testcontainers-go`. You can check it by running:
 
 ```shell
 git remote -v
@@ -30,8 +30,8 @@ Once the remote is properly set, please follow these steps:
 An example execution, with dry-run mode enabled:
 
 ```shell
-sed "s/latest_version: .*/latest_version: v0.20.1/g" /Users/mdelapenya/sourcecode/src/github.com/testcontainers/testcontainers-go/mkdocs.yml > /Users/mdelapenya/sourcecode/src/github.com/testcontainers/testcontainers-go/mkdocs.yml.tmp
-mv /Users/mdelapenya/sourcecode/src/github.com/testcontainers/testcontainers-go/mkdocs.yml.tmp /Users/mdelapenya/sourcecode/src/github.com/testcontainers/testcontainers-go/mkdocs.yml
+sed "s/latest_version: .*/latest_version: v0.20.1/g" /Users/mdelapenya/sourcecode/src/github.com/samkhawase/testcontainers-go/mkdocs.yml > /Users/mdelapenya/sourcecode/src/github.com/samkhawase/testcontainers-go/mkdocs.yml.tmp
+mv /Users/mdelapenya/sourcecode/src/github.com/samkhawase/testcontainers-go/mkdocs.yml.tmp /Users/mdelapenya/sourcecode/src/github.com/samkhawase/testcontainers-go/mkdocs.yml
 sed "s/testcontainers-go v.*/testcontainers-go v0.20.1/g" bigtable/go.mod > bigtable/go.mod.tmp
 mv bigtable/go.mod.tmp bigtable/go.mod
 sed "s/testcontainers-go v.*/testcontainers-go v0.20.1/g" cockroachdb/go.mod > cockroachdb/go.mod.tmp
@@ -135,7 +135,7 @@ Once you are satisfied with the modified files in the git state:
 
 - The script will update the [version.go](./internal/version.go) file, setting the next development version to the value defined in the `BUMP_TYPE` environment variable. For example, if the current version is `v0.18.0`, the script will update the [version.go](./internal/version.go) file with the next development version `v0.19.0`.
 - The script will create a commit in the **main** branch if the `DRY_RUN` variable is set to `false`.
-- The script will push the main branch including the tags to the upstream repository, https://github.com/testcontainers/testcontainers-go, if the `DRY_RUN` variable is set to `false`.
+- The script will push the main branch including the tags to the upstream repository, https://github.com/samkhawase/testcontainers-go, if the `DRY_RUN` variable is set to `false`.
 - Finally, the script will trigger the Golang proxy to update the modules in https://proxy.golang.org/, if the `DRY_RUN` variable is set to `false`.
 
 An example execution, with dry-run mode enabled:
@@ -143,8 +143,8 @@ An example execution, with dry-run mode enabled:
 ```
 $ ./scripts/release.sh
 Current version: v0.20.1
-git add /Users/mdelapenya/sourcecode/src/github.com/testcontainers/testcontainers-go/internal/version.go
-git add /Users/mdelapenya/sourcecode/src/github.com/testcontainers/testcontainers-go/mkdocs.yml
+git add /Users/mdelapenya/sourcecode/src/github.com/samkhawase/testcontainers-go/internal/version.go
+git add /Users/mdelapenya/sourcecode/src/github.com/samkhawase/testcontainers-go/mkdocs.yml
 git add examples/**/go.*
 git add modules/**/go.*
 git commit -m chore: use new version (v0.20.1) in modules and examples
@@ -170,31 +170,31 @@ git tag modules/redpanda/v0.20.1
 git tag modules/vault/v0.20.1
 WARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
 Producing a minor bump of the version, from 0.20.1 to 0.21.0
-sed "s/const Version = ".*"/const Version = "0.21.0"/g" /Users/mdelapenya/sourcecode/src/github.com/testcontainers/testcontainers-go/internal/version.go > /Users/mdelapenya/sourcecode/src/github.com/testcontainers/testcontainers-go/internal/version.go.tmp
-mv /Users/mdelapenya/sourcecode/src/github.com/testcontainers/testcontainers-go/internal/version.go.tmp /Users/mdelapenya/sourcecode/src/github.com/testcontainers/testcontainers-go/internal/version.go
-git add /Users/mdelapenya/sourcecode/src/github.com/testcontainers/testcontainers-go/internal/version.go
+sed "s/const Version = ".*"/const Version = "0.21.0"/g" /Users/mdelapenya/sourcecode/src/github.com/samkhawase/testcontainers-go/internal/version.go > /Users/mdelapenya/sourcecode/src/github.com/samkhawase/testcontainers-go/internal/version.go.tmp
+mv /Users/mdelapenya/sourcecode/src/github.com/samkhawase/testcontainers-go/internal/version.go.tmp /Users/mdelapenya/sourcecode/src/github.com/samkhawase/testcontainers-go/internal/version.go
+git add /Users/mdelapenya/sourcecode/src/github.com/samkhawase/testcontainers-go/internal/version.go
 git commit -m chore: prepare for next minor development cycle (0.21.0)
 git push origin main --tags
-curl https://proxy.golang.org/github.com/testcontainers/testcontainers-go/@v/v0.20.1.info
-curl https://proxy.golang.org/github.com/testcontainers/testcontainers-go/examples/bigtable/@v/v0.20.1.info
-curl https://proxy.golang.org/github.com/testcontainers/testcontainers-go/examples/datastore/@v/v0.20.1.info
-curl https://proxy.golang.org/github.com/testcontainers/testcontainers-go/examples/firestore/@v/v0.20.1.info
-curl https://proxy.golang.org/github.com/testcontainers/testcontainers-go/examples/mongodb/@v/v0.20.1.info
-curl https://proxy.golang.org/github.com/testcontainers/testcontainers-go/examples/nginx/@v/v0.20.1.info
-curl https://proxy.golang.org/github.com/testcontainers/testcontainers-go/examples/pubsub/@v/v0.20.1.info
-curl https://proxy.golang.org/github.com/testcontainers/testcontainers-go/examples/spanner/@v/v0.20.1.info
-curl https://proxy.golang.org/github.com/testcontainers/testcontainers-go/examples/toxiproxy/@v/v0.20.1.info
-curl https://proxy.golang.org/github.com/testcontainers/testcontainers-go/modules/cockroachdb/@v/v0.20.1.info
-curl https://proxy.golang.org/github.com/testcontainers/testcontainers-go/modules/compose/@v/v0.20.1.info
-curl https://proxy.golang.org/github.com/testcontainers/testcontainers-go/modules/couchbase/@v/v0.20.1.info
-curl https://proxy.golang.org/github.com/testcontainers/testcontainers-go/modules/localstack/@v/v0.20.1.info
-curl https://proxy.golang.org/github.com/testcontainers/testcontainers-go/modules/mysql/@v/v0.20.1.info
-curl https://proxy.golang.org/github.com/testcontainers/testcontainers-go/modules/neo4j/@v/v0.20.1.info
-curl https://proxy.golang.org/github.com/testcontainers/testcontainers-go/modules/postgres/@v/v0.20.1.info
-curl https://proxy.golang.org/github.com/testcontainers/testcontainers-go/modules/pulsar/@v/v0.20.1.info
-curl https://proxy.golang.org/github.com/testcontainers/testcontainers-go/modules/redis/@v/v0.20.1.info
-curl https://proxy.golang.org/github.com/testcontainers/testcontainers-go/modules/redpanda/@v/v0.20.1.info
-curl https://proxy.golang.org/github.com/testcontainers/testcontainers-go/modules/vault/@v/v0.20.1.info
+curl https://proxy.golang.org/github.com/samkhawase/testcontainers-go/@v/v0.20.1.info
+curl https://proxy.golang.org/github.com/samkhawase/testcontainers-go/examples/bigtable/@v/v0.20.1.info
+curl https://proxy.golang.org/github.com/samkhawase/testcontainers-go/examples/datastore/@v/v0.20.1.info
+curl https://proxy.golang.org/github.com/samkhawase/testcontainers-go/examples/firestore/@v/v0.20.1.info
+curl https://proxy.golang.org/github.com/samkhawase/testcontainers-go/examples/mongodb/@v/v0.20.1.info
+curl https://proxy.golang.org/github.com/samkhawase/testcontainers-go/examples/nginx/@v/v0.20.1.info
+curl https://proxy.golang.org/github.com/samkhawase/testcontainers-go/examples/pubsub/@v/v0.20.1.info
+curl https://proxy.golang.org/github.com/samkhawase/testcontainers-go/examples/spanner/@v/v0.20.1.info
+curl https://proxy.golang.org/github.com/samkhawase/testcontainers-go/examples/toxiproxy/@v/v0.20.1.info
+curl https://proxy.golang.org/github.com/samkhawase/testcontainers-go/modules/cockroachdb/@v/v0.20.1.info
+curl https://proxy.golang.org/github.com/samkhawase/testcontainers-go/modules/compose/@v/v0.20.1.info
+curl https://proxy.golang.org/github.com/samkhawase/testcontainers-go/modules/couchbase/@v/v0.20.1.info
+curl https://proxy.golang.org/github.com/samkhawase/testcontainers-go/modules/localstack/@v/v0.20.1.info
+curl https://proxy.golang.org/github.com/samkhawase/testcontainers-go/modules/mysql/@v/v0.20.1.info
+curl https://proxy.golang.org/github.com/samkhawase/testcontainers-go/modules/neo4j/@v/v0.20.1.info
+curl https://proxy.golang.org/github.com/samkhawase/testcontainers-go/modules/postgres/@v/v0.20.1.info
+curl https://proxy.golang.org/github.com/samkhawase/testcontainers-go/modules/pulsar/@v/v0.20.1.info
+curl https://proxy.golang.org/github.com/samkhawase/testcontainers-go/modules/redis/@v/v0.20.1.info
+curl https://proxy.golang.org/github.com/samkhawase/testcontainers-go/modules/redpanda/@v/v0.20.1.info
+curl https://proxy.golang.org/github.com/samkhawase/testcontainers-go/modules/vault/@v/v0.20.1.info
 ```
 
 Right after that, you have to:

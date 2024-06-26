@@ -1,6 +1,6 @@
 # LocalStack
 
-Since testcontainers-go <a href="https://github.com/testcontainers/testcontainers-go/releases/tag/v0.18.0"><span class="tc-version">:material-tag: v0.18.0</span></a>
+Since testcontainers-go <a href="https://github.com/samkhawase/testcontainers-go/releases/tag/v0.18.0"><span class="tc-version">:material-tag: v0.18.0</span></a>
 
 ## Introduction
 
@@ -11,7 +11,7 @@ The Testcontainers module for [LocalStack](http://localstack.cloud/) is _"a full
 Please run the following command to add the LocalStack module to your Go dependencies:
 
 ```
-go get github.com/testcontainers/testcontainers-go/modules/localstack
+go get github.com/samkhawase/testcontainers-go/modules/localstack
 ```
 
 ## Usage example

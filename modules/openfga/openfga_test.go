@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/testcontainers/testcontainers-go"
-	"github.com/testcontainers/testcontainers-go/modules/openfga"
+	"github.com/samkhawase/testcontainers-go"
+	"github.com/samkhawase/testcontainers-go/modules/openfga"
 )
 
 func TestOpenFGA(t *testing.T) {

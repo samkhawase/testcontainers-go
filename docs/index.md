@@ -24,7 +24,7 @@ To start using _Testcontainers for Go_ please read our [quickstart guide](./quic
 
 Inline documentation and docs where the code live is crucial for us. Go has nice support for them and we provide
 examples as well. Check it out at
-[pkg.go.dev/github.com/testcontainers/testcontainers-go](https://pkg.go.dev/github.com/testcontainers/testcontainers-go).
+[pkg.go.dev/github.com/samkhawase/testcontainers-go](https://pkg.go.dev/github.com/samkhawase/testcontainers-go).
 
 ## Who is using Testcontainers Go?
 
@@ -36,9 +36,9 @@ examples as well. Check it out at
 ## License
 
 This project is opensource and you can have a look at the code on
-[GitHub](https://github.com/testcontainers/testcontainers-go). See [LICENSE](https://github.com/testcontainers/testcontainers-go/blob/main/LICENSE).
+[GitHub](https://github.com/samkhawase/testcontainers-go). See [LICENSE](https://github.com/samkhawase/testcontainers-go/blob/main/LICENSE).
 
 ## Copyright
 
 Copyright (c) 2018-present Gianluca Arbezzano and other authors. Check out our
-[lovely contributors](https://github.com/testcontainers/testcontainers-go/graphs/contributors).
+[lovely contributors](https://github.com/samkhawase/testcontainers-go/graphs/contributors).

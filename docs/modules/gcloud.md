@@ -1,6 +1,6 @@
 # GCloud
 
-Since testcontainers-go <a href="https://github.com/testcontainers/testcontainers-go/releases/tag/v0.25.0"><span class="tc-version">:material-tag: v0.25.0</span></a>
+Since testcontainers-go <a href="https://github.com/samkhawase/testcontainers-go/releases/tag/v0.25.0"><span class="tc-version">:material-tag: v0.25.0</span></a>
 
 ## Introduction
 
@@ -11,7 +11,7 @@ The Testcontainers module for GCloud.
 Please run the following command to add the GCloud module to your Go dependencies:
 
 ```
-go get github.com/testcontainers/testcontainers-go/modules/gcloud
+go get github.com/samkhawase/testcontainers-go/modules/gcloud
 ```
 
 ## Usage example

@@ -7,8 +7,8 @@ import (
 
 	"github.com/couchbase/gocb/v2"
 
-	"github.com/testcontainers/testcontainers-go"
-	"github.com/testcontainers/testcontainers-go/modules/couchbase"
+	"github.com/samkhawase/testcontainers-go"
+	"github.com/samkhawase/testcontainers-go/modules/couchbase"
 )
 
 func ExampleRunContainer() {

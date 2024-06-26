@@ -11,7 +11,7 @@ import (
 	"github.com/docker/docker/api/types/system"
 	"github.com/docker/docker/client"
 
-	"github.com/testcontainers/testcontainers-go/internal/core"
+	"github.com/samkhawase/testcontainers-go/internal/core"
 )
 
 // DockerClient is a wrapper around the docker client that is used by testcontainers-go.

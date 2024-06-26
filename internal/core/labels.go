@@ -1,7 +1,7 @@
 package core
 
 import (
-	"github.com/testcontainers/testcontainers-go/internal"
+	"github.com/samkhawase/testcontainers-go/internal"
 )
 
 const (

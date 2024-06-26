@@ -14,8 +14,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/tidwall/gjson"
 
-	"github.com/testcontainers/testcontainers-go"
-	testcontainervault "github.com/testcontainers/testcontainers-go/modules/vault"
+	"github.com/samkhawase/testcontainers-go"
+	testcontainervault "github.com/samkhawase/testcontainers-go/modules/vault"
 )
 
 const (

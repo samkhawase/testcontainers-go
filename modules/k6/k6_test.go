@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/testcontainers/testcontainers-go"
-	"github.com/testcontainers/testcontainers-go/modules/k6"
+	"github.com/samkhawase/testcontainers-go"
+	"github.com/samkhawase/testcontainers-go/modules/k6"
 )
 
 func TestK6(t *testing.T) {

@@ -8,7 +8,7 @@ import (
 	"github.com/docker/docker/api/types"
 	"github.com/docker/go-connections/nat"
 
-	"github.com/testcontainers/testcontainers-go/exec"
+	"github.com/samkhawase/testcontainers-go/exec"
 )
 
 var (

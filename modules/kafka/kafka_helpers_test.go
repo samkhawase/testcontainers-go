@@ -3,7 +3,7 @@ package kafka
 import (
 	"testing"
 
-	"github.com/testcontainers/testcontainers-go"
+	"github.com/samkhawase/testcontainers-go"
 )
 
 func TestConfigureQuorumVoters(t *testing.T) {

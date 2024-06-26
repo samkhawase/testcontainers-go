@@ -7,8 +7,8 @@ import (
 
 	"github.com/go-stomp/stomp/v3"
 
-	"github.com/testcontainers/testcontainers-go"
-	"github.com/testcontainers/testcontainers-go/modules/artemis"
+	"github.com/samkhawase/testcontainers-go"
+	"github.com/samkhawase/testcontainers-go/modules/artemis"
 )
 
 func ExampleRunContainer() {

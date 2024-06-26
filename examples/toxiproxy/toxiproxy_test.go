@@ -10,7 +10,7 @@ import (
 	"github.com/go-redis/redis/v8"
 	"github.com/google/uuid"
 
-	"github.com/testcontainers/testcontainers-go/network"
+	"github.com/samkhawase/testcontainers-go/network"
 )
 
 func TestToxiproxy(t *testing.T) {

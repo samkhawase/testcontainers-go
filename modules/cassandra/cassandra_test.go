@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/testcontainers/testcontainers-go/modules/cassandra"
+	"github.com/samkhawase/testcontainers-go/modules/cassandra"
 )
 
 type Test struct {

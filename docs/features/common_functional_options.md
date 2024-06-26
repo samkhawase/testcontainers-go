@@ -1,6 +1,6 @@
 #### Image Substitutions
 
-- Since testcontainers-go <a href="https://github.com/testcontainers/testcontainers-go/releases/tag/v0.26.0"><span class="tc-version">:material-tag: v0.26.0</span></a>
+- Since testcontainers-go <a href="https://github.com/samkhawase/testcontainers-go/releases/tag/v0.26.0"><span class="tc-version">:material-tag: v0.26.0</span></a>
 
 In more locked down / secured environments, it can be problematic to pull images from Docker Hub and run them without additional precautions.
 
@@ -17,7 +17,7 @@ Using the `WithImageSubstitutors` options, you could define your own substitutio
 
 #### WithEnv
 
-- Since testcontainers-go <a href="https://github.com/testcontainers/testcontainers-go/releases/tag/v0.29.0"><span class="tc-version">:material-tag: v0.29.0</span></a>
+- Since testcontainers-go <a href="https://github.com/samkhawase/testcontainers-go/releases/tag/v0.29.0"><span class="tc-version">:material-tag: v0.29.0</span></a>
 
 If you need to either pass additional environment variables to a container or override them, you can use `testcontainers.WithEnv` for example:
 
@@ -27,7 +27,7 @@ postgres, err = postgresModule.RunContainer(ctx, testcontainers.WithEnv(map[stri
 
 #### WithHostPortAccess
 
-- Since testcontainers-go <a href="https://github.com/testcontainers/testcontainers-go/releases/tag/v0.31.0"><span class="tc-version">:material-tag: v0.31.0</span></a>
+- Since testcontainers-go <a href="https://github.com/samkhawase/testcontainers-go/releases/tag/v0.31.0"><span class="tc-version">:material-tag: v0.31.0</span></a>
 
 If you need to access a port that is already running in the host, you can use `testcontainers.WithHostPortAccess` for example:
 
@@ -39,7 +39,7 @@ To understand more about this feature, please read the [Exposing host ports to t
 
 #### WithLogConsumers
 
-- Since testcontainers-go <a href="https://github.com/testcontainers/testcontainers-go/releases/tag/v0.28.0"><span class="tc-version">:material-tag: v0.28.0</span></a>
+- Since testcontainers-go <a href="https://github.com/samkhawase/testcontainers-go/releases/tag/v0.28.0"><span class="tc-version">:material-tag: v0.28.0</span></a>
 
 If you need to consume the logs of the container, you can use `testcontainers.WithLogConsumers` with a valid log consumer. An example of a log consumer is the following:
 
@@ -55,7 +55,7 @@ func (g *TestLogConsumer) Accept(l Log) {
 
 #### WithLogger
 
-- Since testcontainers-go <a href="https://github.com/testcontainers/testcontainers-go/releases/tag/v0.29.0"><span class="tc-version">:material-tag: v0.29.0</span></a>
+- Since testcontainers-go <a href="https://github.com/samkhawase/testcontainers-go/releases/tag/v0.29.0"><span class="tc-version">:material-tag: v0.29.0</span></a>
 
 If you need to either pass logger to a container, you can use `testcontainers.WithLogger`.
 
@@ -89,7 +89,7 @@ At the same time, it's possible to set a wait strategy and a custom deadline wit
 
 #### Startup Commands
 
-- Since testcontainers-go <a href="https://github.com/testcontainers/testcontainers-go/releases/tag/v0.25.0"><span class="tc-version">:material-tag: v0.25.0</span></a>
+- Since testcontainers-go <a href="https://github.com/samkhawase/testcontainers-go/releases/tag/v0.25.0"><span class="tc-version">:material-tag: v0.25.0</span></a>
 
 Testcontainers exposes the `WithStartupCommand(e ...Executable)` option to run arbitrary commands in the container right after it's started.
 
@@ -105,7 +105,7 @@ You could use this feature to run a custom script, or to run a command that is n
 
 #### Ready Commands
 
-- Since testcontainers-go <a href="https://github.com/testcontainers/testcontainers-go/releases/tag/v0.28.0"><span class="tc-version">:material-tag: v0.28.0</span></a>
+- Since testcontainers-go <a href="https://github.com/samkhawase/testcontainers-go/releases/tag/v0.28.0"><span class="tc-version">:material-tag: v0.28.0</span></a>
 
 Testcontainers exposes the `WithAfterReadyCommand(e ...Executable)` option to run arbitrary commands in the container right after it's ready, which happens when the defined wait strategies have finished with success.
 
@@ -118,7 +118,7 @@ You could use this feature to run a custom script, or to run a command that is n
 
 #### WithNetwork
 
-- Since testcontainers-go <a href="https://github.com/testcontainers/testcontainers-go/releases/tag/v0.27.0"><span class="tc-version">:material-tag: v0.27.0</span></a>
+- Since testcontainers-go <a href="https://github.com/samkhawase/testcontainers-go/releases/tag/v0.27.0"><span class="tc-version">:material-tag: v0.27.0</span></a>
 
 By default, the container is started in the default Docker network. If you want to use an already existing Docker network you created in your code, you can use the `network.WithNetwork(aliases []string, nw *testcontainers.DockerNetwork)` option, which receives an alias as parameter and your network, attaching the container to it, and setting the network alias for that network.
 
@@ -129,7 +129,7 @@ In the case you need to retrieve the network name, you can simply read it from t
 
 #### WithNewNetwork
 
-- Since testcontainers-go <a href="https://github.com/testcontainers/testcontainers-go/releases/tag/v0.27.0"><span class="tc-version">:material-tag: v0.27.0</span></a>
+- Since testcontainers-go <a href="https://github.com/samkhawase/testcontainers-go/releases/tag/v0.27.0"><span class="tc-version">:material-tag: v0.27.0</span></a>
 
 If you want to attach your containers to a throw-away network, you can use the `network.WithNewNetwork(ctx context.Context, aliases []string, opts ...network.NetworkCustomizer)` option, which receives an alias as parameter, creating the new network with a random name, attaching the container to it, and setting the network alias for that network.
 

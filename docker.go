@@ -33,10 +33,10 @@ import (
 	"github.com/moby/term"
 	specs "github.com/opencontainers/image-spec/specs-go/v1"
 
-	tcexec "github.com/testcontainers/testcontainers-go/exec"
-	"github.com/testcontainers/testcontainers-go/internal/config"
-	"github.com/testcontainers/testcontainers-go/internal/core"
-	"github.com/testcontainers/testcontainers-go/wait"
+	tcexec "github.com/samkhawase/testcontainers-go/exec"
+	"github.com/samkhawase/testcontainers-go/internal/config"
+	"github.com/samkhawase/testcontainers-go/internal/core"
+	"github.com/samkhawase/testcontainers-go/wait"
 )
 
 // Implement interfaces
@@ -46,7 +46,7 @@ const (
 	Bridge        = "bridge" // Bridge network name (as well as driver)
 	Podman        = "podman"
 	ReaperDefault = "reaper_default" // Default network name when bridge is not available
-	packagePath   = "github.com/testcontainers/testcontainers-go"
+	packagePath   = "github.com/samkhawase/testcontainers-go"
 
 	logStoppedForOutOfSyncMessage = "Stopping log consumer: Headers out of sync"
 )

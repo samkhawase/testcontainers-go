@@ -18,9 +18,9 @@ import (
 	"github.com/twmb/franz-go/pkg/sasl/plain"
 	"github.com/twmb/franz-go/pkg/sasl/scram"
 
-	"github.com/testcontainers/testcontainers-go"
-	"github.com/testcontainers/testcontainers-go/modules/redpanda"
-	"github.com/testcontainers/testcontainers-go/network"
+	"github.com/samkhawase/testcontainers-go"
+	"github.com/samkhawase/testcontainers-go/modules/redpanda"
+	"github.com/samkhawase/testcontainers-go/network"
 )
 
 func TestRedpanda(t *testing.T) {

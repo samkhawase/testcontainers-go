@@ -10,8 +10,8 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/grpc/health/grpc_health_v1"
 
-	"github.com/testcontainers/testcontainers-go"
-	"github.com/testcontainers/testcontainers-go/modules/weaviate"
+	"github.com/samkhawase/testcontainers-go"
+	"github.com/samkhawase/testcontainers-go/modules/weaviate"
 	wvt "github.com/weaviate/weaviate-go-client/v4/weaviate"
 	wvtgrpc "github.com/weaviate/weaviate-go-client/v4/weaviate/grpc"
 )

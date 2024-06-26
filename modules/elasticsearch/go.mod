@@ -1,11 +1,11 @@
-module github.com/testcontainers/testcontainers-go/modules/elasticsearch
+module github.com/samkhawase/testcontainers-go/modules/elasticsearch
 
 go 1.21
 
 require (
 	github.com/elastic/go-elasticsearch/v8 v8.12.1
 	github.com/stretchr/testify v1.9.0
-	github.com/testcontainers/testcontainers-go v0.31.0
+	github.com/samkhawase/testcontainers-go v0.31.0
 	golang.org/x/mod v0.16.0
 )
 
@@ -64,4 +64,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/testcontainers/testcontainers-go => ../..
+replace github.com/samkhawase/testcontainers-go => ../..

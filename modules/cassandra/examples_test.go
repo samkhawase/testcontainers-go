@@ -8,8 +8,8 @@ import (
 
 	"github.com/gocql/gocql"
 
-	"github.com/testcontainers/testcontainers-go"
-	"github.com/testcontainers/testcontainers-go/modules/cassandra"
+	"github.com/samkhawase/testcontainers-go"
+	"github.com/samkhawase/testcontainers-go/modules/cassandra"
 )
 
 func ExampleRunContainer() {

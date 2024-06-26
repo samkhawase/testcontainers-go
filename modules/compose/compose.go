@@ -16,8 +16,8 @@ import (
 	"github.com/docker/compose/v2/pkg/compose"
 	"github.com/google/uuid"
 
-	"github.com/testcontainers/testcontainers-go"
-	"github.com/testcontainers/testcontainers-go/wait"
+	"github.com/samkhawase/testcontainers-go"
+	"github.com/samkhawase/testcontainers-go/wait"
 )
 
 const (

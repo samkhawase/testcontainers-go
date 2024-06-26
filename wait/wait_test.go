@@ -8,7 +8,7 @@ import (
 	"github.com/docker/docker/api/types"
 	"github.com/docker/go-connections/nat"
 
-	tcexec "github.com/testcontainers/testcontainers-go/exec"
+	tcexec "github.com/samkhawase/testcontainers-go/exec"
 )
 
 var ErrPortNotFound = errors.New("port not found")

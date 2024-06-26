@@ -11,7 +11,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/testcontainers/testcontainers-go/internal/config"
+	"github.com/samkhawase/testcontainers-go/internal/config"
 )
 
 // testRemoteHost is a testcontainers host defined in the properties file for testing purposes

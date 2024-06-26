@@ -13,9 +13,9 @@ import (
 	"github.com/docker/docker/api/types"
 	"github.com/docker/go-connections/nat"
 
-	"github.com/testcontainers/testcontainers-go"
-	tcexec "github.com/testcontainers/testcontainers-go/exec"
-	"github.com/testcontainers/testcontainers-go/wait"
+	"github.com/samkhawase/testcontainers-go"
+	tcexec "github.com/samkhawase/testcontainers-go/exec"
+	"github.com/samkhawase/testcontainers-go/wait"
 )
 
 func ExampleExecStrategy() {

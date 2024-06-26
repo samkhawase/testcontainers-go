@@ -9,8 +9,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/testcontainers/testcontainers-go/modulegen/internal/context"
-	"github.com/testcontainers/testcontainers-go/modulegen/internal/mkdocs"
+	"github.com/samkhawase/testcontainers-go/modulegen/internal/context"
+	"github.com/samkhawase/testcontainers-go/modulegen/internal/mkdocs"
 )
 
 func TestGetMkDocsConfigFile(t *testing.T) {
@@ -41,7 +41,7 @@ func TestReadMkDocsConfig(t *testing.T) {
 	require.NotNil(t, config)
 
 	assert.Equal(t, "Testcontainers for Go", config.SiteName)
-	assert.Equal(t, "https://github.com/testcontainers/testcontainers-go", config.RepoURL)
+	assert.Equal(t, "https://github.com/samkhawase/testcontainers-go", config.RepoURL)
 	assert.Equal(t, "edit/main/docs/", config.EditURI)
 
 	// theme

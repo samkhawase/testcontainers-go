@@ -1,10 +1,10 @@
-module github.com/testcontainers/testcontainers-go/modules/inbucket
+module github.com/samkhawase/testcontainers-go/modules/inbucket
 
 go 1.21
 
 require (
 	github.com/inbucket/inbucket v2.0.0+incompatible
-	github.com/testcontainers/testcontainers-go v0.31.0
+	github.com/samkhawase/testcontainers-go v0.31.0
 )
 
 require (
@@ -59,4 +59,4 @@ require (
 	google.golang.org/protobuf v1.33.0 // indirect
 )
 
-replace github.com/testcontainers/testcontainers-go => ../..
+replace github.com/samkhawase/testcontainers-go => ../..

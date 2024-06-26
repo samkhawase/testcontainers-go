@@ -18,11 +18,11 @@ import (
 	"github.com/docker/docker/api/types"
 	"github.com/docker/go-connections/nat"
 
-	"github.com/testcontainers/testcontainers-go"
-	"github.com/testcontainers/testcontainers-go/wait"
+	"github.com/samkhawase/testcontainers-go"
+	"github.com/samkhawase/testcontainers-go/wait"
 )
 
-// https://github.com/testcontainers/testcontainers-go/issues/183
+// https://github.com/samkhawase/testcontainers-go/issues/183
 func ExampleHTTPStrategy() {
 	// waitForHTTPWithDefaultPort {
 	ctx := context.Background()

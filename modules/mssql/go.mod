@@ -1,10 +1,10 @@
-module github.com/testcontainers/testcontainers-go/modules/mssql
+module github.com/samkhawase/testcontainers-go/modules/mssql
 
 go 1.21
 
 require (
 	github.com/microsoft/go-mssqldb v1.7.0
-	github.com/testcontainers/testcontainers-go v0.31.0
+	github.com/samkhawase/testcontainers-go v0.31.0
 )
 
 require (
@@ -61,4 +61,4 @@ require (
 	google.golang.org/protobuf v1.33.0 // indirect
 )
 
-replace github.com/testcontainers/testcontainers-go => ../..
+replace github.com/samkhawase/testcontainers-go => ../..

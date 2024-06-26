@@ -1,4 +1,4 @@
-module github.com/testcontainers/testcontainers-go
+module github.com/samkhawase/testcontainers-go
 
 go 1.21
 

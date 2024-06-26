@@ -1,6 +1,6 @@
 package rabbitmq
 
-import "github.com/testcontainers/testcontainers-go"
+import "github.com/samkhawase/testcontainers-go"
 
 type SSLVerificationMode string
 

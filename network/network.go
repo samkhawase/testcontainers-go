@@ -8,7 +8,7 @@ import (
 	"github.com/docker/docker/api/types/network"
 	"github.com/google/uuid"
 
-	"github.com/testcontainers/testcontainers-go"
+	"github.com/samkhawase/testcontainers-go"
 )
 
 // New creates a new network with a random UUID name, calling the already existing GenericNetwork APIs.

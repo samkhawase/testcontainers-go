@@ -1,10 +1,10 @@
-module github.com/testcontainers/testcontainers-go/modules/minio
+module github.com/samkhawase/testcontainers-go/modules/minio
 
 go 1.21
 
 require (
 	github.com/minio/minio-go/v7 v7.0.68
-	github.com/testcontainers/testcontainers-go v0.31.0
+	github.com/samkhawase/testcontainers-go v0.31.0
 )
 
 require (
@@ -70,4 +70,4 @@ require (
 	gopkg.in/ini.v1 v1.67.0 // indirect
 )
 
-replace github.com/testcontainers/testcontainers-go => ../..
+replace github.com/samkhawase/testcontainers-go => ../..

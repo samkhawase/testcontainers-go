@@ -12,11 +12,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/testcontainers/testcontainers-go"
-	"github.com/testcontainers/testcontainers-go/exec"
-	"github.com/testcontainers/testcontainers-go/modules/localstack"
-	"github.com/testcontainers/testcontainers-go/network"
-	"github.com/testcontainers/testcontainers-go/wait"
+	"github.com/samkhawase/testcontainers-go"
+	"github.com/samkhawase/testcontainers-go/exec"
+	"github.com/samkhawase/testcontainers-go/modules/localstack"
+	"github.com/samkhawase/testcontainers-go/network"
+	"github.com/samkhawase/testcontainers-go/wait"
 )
 
 func ExampleRunContainer() {

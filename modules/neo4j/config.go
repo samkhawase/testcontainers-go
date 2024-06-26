@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/testcontainers/testcontainers-go"
+	"github.com/samkhawase/testcontainers-go"
 )
 
 type LabsPlugin string
